@@ -1,0 +1,7 @@
+{
+    "manual_image": "step02.png",
+    "action": "插入柱子到底部框架",
+    "show_parts": ["1", "2", "4", "5", "6"],
+    "dataset_step_id": 1,
+    "anim_start_step_id": 0
+}

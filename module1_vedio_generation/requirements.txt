@@ -1,0 +1,6 @@
+openai
+Pillow
+numpy
+opencv-python-headless
+python-dotenv
+imageio-ffmpeg

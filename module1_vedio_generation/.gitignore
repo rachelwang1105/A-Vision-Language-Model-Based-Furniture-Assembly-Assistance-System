@@ -1,0 +1,19 @@
+# API Keys
+.env
+
+# 大型資料集（不上傳）
+dataset/
+renders/
+output/
+videos/
+*.mp4
+*.obj
+*.glb
+
+# Python 暫存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 系統檔案
+.DS_Store

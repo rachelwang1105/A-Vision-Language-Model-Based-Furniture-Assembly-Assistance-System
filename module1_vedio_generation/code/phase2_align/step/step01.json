@@ -1,0 +1,7 @@
+{
+    "manual_image": "step01.png",
+    "action": "安裝腳墊螺絲",
+    "show_parts": ["4"],
+    "dataset_step_id": 0,
+    "anim_start_step_id": null
+}

@@ -1,0 +1,7 @@
+{
+    "manual_image": "final.png",
+    "action": "完成組裝",
+    "show_parts": ["0", "1", "2", "3", "4", "5", "6"],
+    "dataset_step_id": null,
+    "anim_start_step_id": null
+}

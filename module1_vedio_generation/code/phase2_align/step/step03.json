@@ -1,0 +1,7 @@
+{
+    "manual_image": "step03.png",
+    "action": "加上層框架",
+    "show_parts": ["0", "1", "2", "4", "5", "6"],
+    "dataset_step_id": 2,
+    "anim_start_step_id": 1
+}

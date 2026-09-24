@@ -42,7 +42,7 @@ GPT-5.4-mini（vision）× 3 次獨立呼叫
 }
 ```
 
-$\color{blue}{\texttt{"current\_step": 1-5 or "unclear"}}$
+其中 **`current_step`** 欄位的值為 1~5 的整數，或字串 `"unclear"`。
 
 ---
 
@@ -83,7 +83,7 @@ $\color{blue}{\texttt{"current\_step": 1-5 or "unclear"}}$
 
 ## Demo 影片
 
-https://youtu.be/HtNzd6He6GE
+> TODO：補上系統操作展示影片連結
 
 ---
 

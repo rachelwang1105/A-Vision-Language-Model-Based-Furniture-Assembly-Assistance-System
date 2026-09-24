@@ -2,6 +2,10 @@
 
 將家具組裝說明書(截圖)自動轉換成帶語音旁白的 3D 動畫解說影片。以 IKEA VITTSJO_2 玻璃桌為範例,整體流程分成三個階段:AI 視覺分析 → Blender 3D 組裝動畫 → 相機標定與影片後製合成。
 
+## Demo 影片
+
+[![Demo](https://img.youtube.com/vi/HtNzd6He6GE/0.jpg)](https://youtu.be/HtNzd6He6GE)
+
 ## 環境需求
 
 - 全流程皆在 **Mac** 上執行(Phase 1 AI 分析、Phase 2 Blender 動畫渲染、Phase 3 相機標定 / 後製)

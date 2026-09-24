@@ -42,6 +42,8 @@ GPT-5.4-mini（vision）× 3 次獨立呼叫
 }
 ```
 
+$\color{blue}{\texttt{"current\_step": 1-5 or "unclear"}}$
+
 ---
 
 ## 消融實驗結果（43 張測試照片，每張重複 3 次多數決）
@@ -81,7 +83,7 @@ GPT-5.4-mini（vision）× 3 次獨立呼叫
 
 ## Demo 影片
 
-> TODO：補上系統操作展示影片連結
+https://youtu.be/HtNzd6He6GE
 
 ---
 

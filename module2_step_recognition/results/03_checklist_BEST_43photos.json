@@ -1,0 +1,1477 @@
+{
+  "summary": {
+    "total": 43,
+    "checklist_reordered": {
+      "correct": 38,
+      "unclear": 0,
+      "tied": 0,
+      "accuracy": 0.8837,
+      "avg_latency_ms": 8167,
+      "avg_run_level_accuracy": 0.8605
+    }
+  },
+  "results": [
+    {
+      "image": "step01_01.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面本體，座面下方已經裝上左右扶手/肘掛兩側支架；但看不到椅背（背靠）已安裝在座面後方，也看不到升降零件（座面中央的連接座/旋鈕機構）是否已裝好。畫面中同時沒有五爪腳、腳輪、氣壓棒或插入底座的完整結構，因此可排除 step04 和 step05；又因未見背靠，所以也不是 step03。依可見零件判斷，目前最符合的是只完成座面加左右扶手的 step01。",
+            "suggestion": "",
+            "latency_ms": 11826,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中只看到座面本體，左右扶手已經固定在座面兩側，符合說明書中的 Step 1 特徵。畫面中沒有看到昇降零件、椅背、五爪腳、腳輪或氣壓棒已裝上座面的跡象，因此可以判斷目前完成到扶手安裝這一步，尚未進入 Step 2 之後的組裝。",
+            "suggestion": "",
+            "latency_ms": 15296,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到的是座面底部，左右兩側已經各裝上扶手，符合 Step 1 的特徵。座面中央沒有看到已安裝的昇降零件/連接座（Step 2）、也沒有看到椅背立起來（Step 3）。背景右上角雖然有五爪腳與腳輪的成品樣子，但那不是這張照片中座面已組合上的部分，因此不能算到 Step 4 或 Step 5。綜合判斷，目前完成到座面裝上左右扶手這一步。",
+            "suggestion": "",
+            "latency_ms": 13585,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 13569
+      }
+    },
+    {
+      "image": "step01_02.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "實況照片中可清楚看到只有座面本體，左右扶手已經固定在座面兩側；沒有看到椅背、昇降零件（座面中央的連接座/旋鈕機構）、也沒有看到五爪腳、腳輪或氣壓棒。依照步驟判斷規則，這種狀態最符合「座面加左右扶手，其他都沒有」的完成度。",
+            "suggestion": "",
+            "latency_ms": 12604,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面已經裝上左右扶手，扶手都固定在座面兩側；但看不到昇降零件（座面中央下方的連接座/旋鈕機構）、也看不到網布椅背已裝上座面的狀態，更沒有看到五爪腳、腳輪或氣壓棒已組合完成。依照判斷順序，這符合「只有座面加左右扶手，其他都沒有」的狀態，因此目前完成到 Step 1。",
+            "suggestion": "",
+            "latency_ms": 9022,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可以清楚看到：只有座面本體已經裝上左右扶手，扶手固定在座面兩側；座面底部中央看不到昇降零件/連接座，也沒有看到椅背立起來；更沒有五爪腳、腳輪或氣壓棒。依照判斷順序，這符合『只有座面加左右扶手，其他都沒有』的狀態。",
+            "suggestion": "",
+            "latency_ms": 6077,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 9234
+      }
+    },
+    {
+      "image": "step01_03.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "從照片可見目前只有座面與左右扶手已經固定在一起，座面底部兩側都裝上了扶手結構；畫面中沒有看到座面中央已裝上的昇降零件（Step 2 的連接座/旋鈕機構），也沒有看到座面後方立起的整片網布椅背，因此可以排除 step02、step03。另一方面，五爪腳、腳輪、氣壓棒與保護套都還沒有與座面組合在一起，所以也不是 step04 或 step05。",
+            "suggestion": "",
+            "latency_ms": 10326,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面已經裝上左右扶手，這符合 Step 1。座面上方可見兩側扶手結構，但沒有看到座面後方立起的整片網布椅背，因此不是 Step 3。座面中央也沒有明顯看到昇降零件/連接座已裝上，因此不是 Step 2。畫面中另外可見五爪腳、腳輪與氣壓棒等零件仍分開放置，沒有看到座面已插入五爪腳，所以也不是 Step 4 或 Step 5。",
+            "suggestion": "",
+            "latency_ms": 7931,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "從照片可見目前只有座面與左右扶手已經裝上，座面下方兩側各有扶手結構，符合說明書的 Step 1。照片中沒有看到座面中央已安裝昇降零件（Step 2 的連接座/旋鈕機構），也沒有看到椅背立起來（Step 3），更沒有看到五爪腳、腳輪或氣壓棒已組裝完成（Step 4/5）。因此目前完成到 Step 1。",
+            "suggestion": "",
+            "latency_ms": 7233,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8497
+      }
+    },
+    {
+      "image": "step01_04.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面本體，左右扶手已經固定在座面兩側；但看不到座面中央有昇降零件（Step 2 的連接座/旋鈕機構），也看不到背後立起來的網布椅背（Step 3），更沒有看到五爪腳、腳輪或氣壓棒（Step 4、5）。因此目前已完成的是「座面裝上左右扶手」這一步。",
+            "suggestion": "",
+            "latency_ms": 6821,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "從實況照片可見目前只有座面本體，兩側已經裝上左右扶手，且座面底部沒有看到昇降零件（連接座/旋鈕機構）、沒有椅背、也沒有五爪腳、腳輪或氣壓棒。這符合說明書中的「座面裝上左右扶手」狀態，尚未進入後續步驟。",
+            "suggestion": "",
+            "latency_ms": 8401,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中只看到座面本體，左右扶手已經裝在座面兩側；座面底部可見扶手固定支架與螺絲孔。畫面中沒有看到網布椅背立起來，因此不像 step03；也沒有看到昇降零件/連接座安裝在座面中央，因此不像 step02；更沒有看到五爪腳、腳輪或氣壓棒，所以也不是 step04 或 step05。根據已完成的零件狀態，判斷目前完成到座面加左右扶手的階段。",
+            "suggestion": "",
+            "latency_ms": 7853,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7692
+      }
+    },
+    {
+      "image": "step01_05.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面已裝上左右扶手，且沒有看到椅背、昇降機構或五爪腳組件。座面底部中央雖有扶手連接位置，但畫面沒有顯示昇降零件或椅背安裝，因此可判斷目前完成到只有座面加左右扶手的階段。",
+            "suggestion": "",
+            "latency_ms": 8046,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "從實況照片可清楚看到：只有座面已裝上左右扶手，尚未看到椅背立起來、也看不到座面中央的昇降/連接機構，更沒有看到五爪腳、腳輪或氣壓棒組合。因此目前完成進度符合說明書中的 Step 1（座面裝上左右扶手）。",
+            "suggestion": "",
+            "latency_ms": 7121,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面與左右扶手已經組合完成，座面下方中央沒有看到昇降零件（Step 2 的連接座/旋鈕機構）、也沒有看到椅背已裝上（Step 3 的網布椅背）。同時照片裡沒有看到五爪腳、腳輪或氣壓棒已與座面組合，因此不是 Step 4 或 Step 5。依照零件狀態判斷，目前完成到只有座面加左右扶手的階段。",
+            "suggestion": "",
+            "latency_ms": 6571,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7246
+      }
+    },
+    {
+      "image": "step01_06.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到：座面已經裝上左右扶手，扶手已用螺絲固定在座面兩側；但座面中央沒有看到昇降零件（沒有旋鈕/連接座機構）、也沒有看到椅背立起來，更沒有看到五爪腳、腳輪或氣壓棒組合。依照步驟判斷，這是已完成到 Step 1 的狀態。",
+            "suggestion": "",
+            "latency_ms": 9632,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面已經裝上左右扶手，這符合 Step 1。座面中央沒有看到已安裝的昇降零件／升降機構，因此不像 Step 2；也沒有看到椅背立在座面後方，所以不是 Step 3。背景左上角雖然有一張已組好的椅子，且可見五爪腳，但那不是前景這張正在辨識的組裝件；前景座面本體尚未與五爪腳組合，因此也不是 Step 5。從前景零件狀態判斷，目前完成到 Step 1。",
+            "suggestion": "",
+            "latency_ms": 8343,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面上已經裝上左右扶手，扶手結構與座面兩側固定點都已完成；但看不到椅背已安裝在座面後方，因此不像 step03。座面中央也沒有看到已裝上的昇降零件/連接座機構，因此不符合 step02。畫面中也沒有看到五爪腳、腳輪、氣壓棒或座面插入五爪腳的完整組合，因此也不是 step04 或 step05。綜合判斷，目前完成到座面加左右扶手的狀態。",
+            "suggestion": "",
+            "latency_ms": 8457,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8811
+      }
+    },
+    {
+      "image": "step01_07.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面與左右扶手已經組裝完成，但沒有看到座面後方的整片椅背，因此不是step03以上；同時也看不到昇降零件（座面中央下方的連接座/旋鈕機構），所以不是step02；座面也尚未插入五爪腳，且畫面中沒有五爪腳、腳輪、氣壓棒與保護套，因此也不是step04或step05。依照可見零件判斷，目前完成到只有座面加左右扶手的階段。",
+            "suggestion": "",
+            "latency_ms": 5434,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面加左右扶手，尚未看到椅背、昇降零件（座面底部中央的連接座/機構）、也沒有五爪腳、腳輪或氣壓棒。依照說明書與判斷順序，這符合已完成到 Step 1 的狀態。",
+            "suggestion": "",
+            "latency_ms": 4411,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "從實況照片可清楚看到只有座面、左右扶手已安裝在座面兩側，沒有看到椅背、昇降機構、五爪腳、腳輪或氣壓棒。這符合說明書中的 Step 1（座面裝上左右扶手）。目前還看不到 Step 2 需要的座面中央昇降零件，也看不到 Step 3 的網布椅背，更沒有 Step 4/5 的五爪腳組件，因此可判斷已完成到 Step 1。",
+            "suggestion": "",
+            "latency_ms": 8405,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6083
+      }
+    },
+    {
+      "image": "step01_08.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面翻面放置，底部已经装上左右扶手（两侧都有扶手支架与螺丝固定点），但没有看到椅背立起来，也没有看到昇降零件/旋钮机构安装在座面中央，更没有五爪脚、脚轮或气压棒与座面组合。因此目前已完成的步骤应是只装了左右扶手的阶段。",
+            "suggestion": "",
+            "latency_ms": 6388,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面本體，座面底部已裝上左右扶手，符合步驟1的特徵。畫面中沒有看到座面中央的昇降零件/連接座，因此不像步驟2；也沒有看到座面後方立起的網布椅背，因此不是步驟3。更重要的是，照片中也完全沒有五爪腳、腳輪、氣壓棒或保護套，排除步驟4與步驟5。根據已完成的零件狀態判斷，目前完成到步驟1。",
+            "suggestion": "",
+            "latency_ms": 11599,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到的是座面翻面放置，座面底部已经安装了左右扶手（可见两侧各有扶手结构，符合 Step 1）。同时也能看到座面中央后方/底部已经装上了升降相关零件（有中央机构与旋钮/支架结构，符合 Step 2 的特征）。但照片里没有看到椅背已经固定在座面后方，因此不像 Step 3；也没有看到五爪脚、脚轮、气压棒或将座面插入五爪脚的完整结构，因此不到 Step 4 或 Step 5。根据已完成的部件，当前应判定为已完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 11068,
+            "correct": false
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 0.6667,
+        "avg_latency_ms": 9685
+      }
+    },
+    {
+      "image": "step01_09.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面本體，底部已經裝上左右扶手支架，且扶手是用螺絲固定在座面上；同時沒有看到椅背、昇降機構、五爪腳、腳輪或氣壓棒等其他部件，因此目前完成度符合步驟1。",
+            "suggestion": "",
+            "latency_ms": 6303,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中只看到座面翻面放在地上，座面底部左右扶手支架已經固定在座面兩側，這符合 Step 1「座面裝上左右扶手」的完成狀態。畫面中沒有看到昇降零件、椅背、五爪腳、腳輪或氣壓棒，因此可排除 Step 2~5。",
+            "suggestion": "",
+            "latency_ms": 6151,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面本體，座面底部已裝上左右扶手固定座/扶手結構，且看不到椅背、升降零件（座面中央連接座/旋鈕機構）、也看不到五爪腳、腳輪或氣壓棒。這表示目前完成的是「座面加左右扶手」的階段，尚未進入裝椅背、升降零件或底座組裝。",
+            "suggestion": "",
+            "latency_ms": 11780,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8078
+      }
+    },
+    {
+      "image": "step01_10.jpeg",
+      "expected": 1,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可以清楚看到：只有黑色座面本體，座面左右兩側已經裝上扶手；但看不到椅背、昇降機構、五爪腳、腳輪或氣壓棒等其他零件。依照步驟定義，這種狀態符合「座面加左右扶手，其他都沒有」的完成狀態，因此判斷已完成到 Step 1。",
+            "suggestion": "",
+            "latency_ms": 6869,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可以清楚看到的是：目前只有座面與左右扶手已經裝上，座面底部兩側扶手支架已固定；同時看不到五爪腳、腳輪、氣壓棒，也看不到椅背或昇降零件。依照說明書與判斷順序，這種狀態符合「只有座面加左右扶手，其他都沒有」的已完成狀態，因此是 Step 1。",
+            "suggestion": "",
+            "latency_ms": 7691,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到只有座面本體，左右扶手已經裝在座面兩側；但沒有看到網布椅背立在座面後方，因此不是 step03。座面中央也看不到已裝上的昇降零件/旋鈕機構，因此不是 step02。畫面中也沒有看到五爪腳、腳輪、氣壓棒或保護套，因此不是 step04 或 step05。依照已完成的零件組合判斷，應是完成到只裝扶手的階段。",
+            "suggestion": "",
+            "latency_ms": 7328,
+            "correct": true
+          }
+        ],
+        "majority_step": 1,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7296
+      }
+    },
+    {
+      "image": "step02_01.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中可見的是座面翻面放置，已經裝上左右扶手，且座面下方中央也可看到已安裝的昇降/連接機構（中央有圓筒狀座與金屬支架），但沒有看到完整的網布椅背立起來，也沒有看到五爪腳、腳輪或氣壓棒已組到座面下方。依判斷順序，這表示目前已完成到座面加扶手與昇降零件的階段；其中扶手與中央機構都已存在，步驟2已完成，而步驟3與4、5都還沒完成。",
+            "suggestion": "",
+            "latency_ms": 6674,
+            "correct": true
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到目前只有座面本體，左右扶手已經安裝在座面兩側，且看不到椅背已裝上座面後方；同時也看不到昇降零件那種座面中央的明顯機構已完成安裝成整體，因此可排除 step02、step03、step04、step05。依照說明，這種狀態符合「只有座面加左右扶手，其他都沒有」的完成狀態。",
+            "suggestion": "",
+            "latency_ms": 6811,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可以清楚看到只有座面本體，左右扶手已經安裝完成；座面底部中央也已經裝上升降／連接機構，但沒有看到後方整片椅背立起來，因此不是 Step 03。畫面中也沒有五爪腳、腳輪、氣壓棒或保護套，表示還沒到 Step 04/05。依照判斷順序，這種狀態符合「只有座面加左右扶手，其他都沒有」以及底部已裝上升降零件的特徵，但因實際照片明確可見中央機構已存在，所以完成進度應判定到座面與昇降零件皆已裝好。",
+            "suggestion": "",
+            "latency_ms": 7396,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 0.6667,
+        "avg_latency_ms": 6960
+      }
+    },
+    {
+      "image": "step02_02.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到：只有座面本體，已經裝上左右扶手，並且座面底部中央也已裝有升降機構/連接座（可見旋鈕樣的機構與金屬底座）。但看不到網布椅背已固定在座面後方，因此不是 step03；同時也沒有看到五爪腳、腳輪、氣壓棒或保護套，所以也不是 step04/step05。依已完成的組裝特徵判斷，目前完成到座面加左右扶手與升降零件的狀態。",
+            "suggestion": "",
+            "latency_ms": 8792,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可見座面已裝上左右扶手，且扶手與座面底部的固定座已經鎖上；同時也可看到座面中央已裝有升降機構／連接座（有中央圓筒與底部支架），但沒有看到網布椅背立起來，因此已完成到「座面裝上昇降零件」這一步，尚未進入裝椅背或裝上五爪腳的階段。",
+            "suggestion": "",
+            "latency_ms": 6530,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到座面已經安裝了左右扶手，這符合 Step 1 的特徵；同時座面中央也已安裝昇降零件／機構（可見中央圓柱與底座連接件），這是 Step 2 的特徵。照片裡沒有看到椅背已固定在座面後方，因此還不到 Step 3；也沒有看到五爪腳、腳輪、氣壓棒已組成並與座面接合，因此也不是 Step 4 或 Step 5。綜合判斷，目前已完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 11526,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8949
+      }
+    },
+    {
+      "image": "step02_03.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中可以清楚看到座面已經翻面，左右扶手已經固定在座面兩側，這符合 Step 1 的特徵。座面中央也已經裝上昇降零件/機構（可見中央金屬支架與調整把手），這表示已完成 Step 2。照片中沒有看到已安裝在座面後方的整片網布椅背，因此還沒到 Step 3；也沒有看到五爪腳、腳輪、氣壓棒完整組合後再把座面插上去，因此還沒到 Step 4 或 Step 5。根據已完成的最終步驟判斷，目前完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 12062,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到的是座面底部，左右扶手已經安裝在座面兩側，這符合 Step 1 的特徵；同時座面中央已經裝有昇降/機構零件（可見中央金屬機構與旋鈕/連接座），因此已經超過 Step 1。照片中看不到已裝上的網布椅背，因此不像 Step 3；也沒有看到五爪腳、腳輪、氣壓棒組合與座面插入五爪腳的完整結構，因此不是 Step 4 或 Step 5。綜合判斷，目前完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 8111,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可以清楚看到：座面底部已經裝上左右扶手，且兩側扶手都有螺絲固定；同時也能看到座面中央已安裝升降機構（黑色金屬連接座與調整把手），因此不只是 Step 1，也已完成 Step 2。照片中看不到已裝上的網布椅背，因此尚未達到 Step 3；另外也沒有看到五爪腳、腳輪、氣壓棒或座面插入五爪腳的完整結構，所以也不是 Step 4 或 Step 5。",
+            "suggestion": "",
+            "latency_ms": 8393,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 9522
+      }
+    },
+    {
+      "image": "step02_04.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到只有座面本體，且左右扶手已經固定在座面兩側；座面中央也已經裝上昇降/機構零件，但沒有看到網布椅背立起來，因此不是 step03。五爪腳、腳輪、氣壓棒也尚未與座面組合在一起，因此不是 step04 或 step05。依照已完成的零件判斷，目前完成到座面+左右扶手+中央昇降零件的狀態，對應已完成到 step02。",
+            "suggestion": "",
+            "latency_ms": 6878,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到只有座面本體，左右扶手已經安裝在座面兩側，符合說明書的 Step 1。座面中央也已裝上昇降/底盤機構，但尚未看到背部椅背立起來，因此不是 Step 3；同時也沒有看到五爪腳、腳輪、氣壓棒或座面插入五爪腳的完整組合，因此不是 Step 4 或 Step 5。綜合判斷目前已完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 8746,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到只有座面本體，左右扶手已經安裝在座面兩側；同時也能看到座面中央與底部已裝上升降/連接機構（黑色金屬支架與中間圓柱孔位），但沒有看到椅背立起來，因此不是 step03 以上。照片中也看不到五爪腳、腳輪、氣壓棒或整個椅子已插到底座，所以不是 step04 或 step05。依照判斷順序，已完成到「座面裝上昇降零件」這一步。",
+            "suggestion": "",
+            "latency_ms": 7393,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7672
+      }
+    },
+    {
+      "image": "step02_05.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到座面下方已裝上左右扶手，扶手與座面之間的固定結構已完成；但座面中央目前看不到已裝上的昇降零件（如旋鈕/機構）以及椅背。背景裡也能看到五爪腳與氣壓棒樣的組件，但它們尚未與前景這個座面組合在一起，因此不是 step05。依照可見特徵，這張照片最符合「只有座面加左右扶手，其他都沒有」的完成狀態。",
+            "suggestion": "",
+            "latency_ms": 6555,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可見座面已經裝上左右扶手，且扶手之間的座面底部中央也已裝有昇降機構/連接座，符合 Step 1 與 Step 2 的完成狀態。畫面中沒有看到座面後方立起的一整片網布椅背，因此尚未到 Step 3。背景另有一個已完成的五爪腳/椅腳結構，但前景這個待判斷的椅子本體尚未裝到五爪腳上，所以也不是 Step 5。綜合判斷，目前已完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 6981,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "從實況照片看，座面已經裝上左右扶手，符合 Step 1 的特徵；同時座面底部中央也已經裝上升降機構/連接座，這是 Step 2 的特徵。照片中沒有看到座面後方立起的網布椅背，因此還不到 Step 3；也沒有看到五爪腳、腳輪與氣壓棒的完整組合，因此也不是 Step 4 或 Step 5。綜合判斷，目前完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 7203,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 0.6667,
+        "avg_latency_ms": 6913
+      }
+    },
+    {
+      "image": "step02_06.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 1,
+            "reason": "照片中可清楚看到的是座面本體，底部已經裝上左右扶手（可見兩側扶手結構與固定座），但沒有看到五爪腳、腳輪、氣壓棒，也沒有看到座面中央的昇降零件或後方的椅背。依照說明書與判斷順序，這種狀態最符合「只有座面加左右扶手，其他都沒有」的完成階段；同時未見 step02 的昇降機構、未見 step03 的網布椅背、未見 step04/05 的五爪腳組合，因此判定目前已完成到 step01。",
+            "suggestion": "",
+            "latency_ms": 9756,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可以看到座面已經翻過來放置，座面底部中央已安裝昇降/機構零件，且左右扶手也都已固定在座面兩側；但是沒有看到椅背已裝上座面後方，因此不是 step03。另一方面，底部也還沒有看到五爪腳、腳輪完整插上座面成為完整椅子，所以也不是 step04 或 step05。依可見零件判斷，組裝已完成到只有座面+左右扶手+中央昇降零件的狀態。",
+            "suggestion": "",
+            "latency_ms": 8588,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到座面底部已裝上左右扶手，且扶手以支架形式固定在座面兩側；同時也能看到座面中央已安裝昇降機構/連接座（有中間的黑色圓筒與底板）。但是照片中沒有看到網布椅背已裝在座面後方，也沒有看到五爪腳、腳輪、氣壓棒組成的底座與座面插合。因此可判斷目前至少已完成 Step 1 與 Step 2，但尚未到 Step 3，符合「座面中央有連接座/旋鈕機構，但沒有網布椅背」的狀態。",
+            "suggestion": "",
+            "latency_ms": 7800,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 0.6667,
+        "avg_latency_ms": 8715
+      }
+    },
+    {
+      "image": "step02_07.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "從實況照片看，已經可以清楚看到：座面、左右扶手、以及座面底部中央的昇降機構都已經裝上了。照片中沒有看到椅背立在座面後方，因此不是 step03；也沒有看到五爪腳、腳輪或氣壓棒組合，因此不是 step04 或 step05。依照說明書與判斷順序，這是已完成座面加扶手，再加上昇降零件的狀態。",
+            "suggestion": "",
+            "latency_ms": 7679,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到：只有座面本體、左右扶手，以及座面中央已安裝的昇降/機構零件；沒有看到網布椅背已裝上，因此不是 step03。也沒有看到五爪腳、腳輪、氣壓棒或保護套，因此不是 step04 或 step05。依照說明書與判斷順序，這與「座面中央有連接座/旋鈕機構，但沒有網布椅背」相符，判定已完成到 step02。",
+            "suggestion": "",
+            "latency_ms": 7178,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可以清楚看到：座面底部已經裝上左右扶手，且中央也已經裝有昇降/機構零件（可見旋鈕與中央金屬機構），但看不到椅背已鎖上座面後方，因此不符合 step03；同時目前也還沒有看到五爪腳、腳輪、氣壓棒或保護套，所以也不是 step04 或 step05。依照判斷順序，已完成到座面安裝扶手與昇降零件的階段。",
+            "suggestion": "",
+            "latency_ms": 8656,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7838
+      }
+    },
+    {
+      "image": "step02_08.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可以清楚看到座面底部已經安裝了扶手（左右扶手都在座面兩側），同時也已經安裝了昇降零件/機構（座面中央可見升降機構與調整把手）。此外，椅背也已經裝上，從座面後方可以看到整片椅背立起來。畫面中沒有看到五爪腳、腳輪、氣壓棒組成的底座，也沒有看到座面已插入五爪腳，因此不是 Step 4 或 Step 5。因為座面上同時具備扶手、昇降零件與椅背，代表組裝已完成到步驟 3。",
+            "suggestion": "",
+            "latency_ms": 7537,
+            "correct": false
+          },
+          {
+            "current_step": 3,
+            "reason": "從照片可見目前是座面翻面朝上，已經裝上左右扶手（可見兩側扶手本體），也已經裝上昇降零件／機構（座面中央有黑色升降座與旋鈕/機構），但看不到椅背已固定在座面後方；另外整個畫面也還沒有看到五爪腳、腳輪完整組合或座面插入五爪腳的狀態。因此可判斷目前完成度已超過 step01、step02，尚未到 step04 或 step05，最符合的是已完成到 step03。",
+            "suggestion": "",
+            "latency_ms": 7158,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到座面下方已經裝上升降零件／機構，且沒有看到網布椅背立起來，也沒有看到整個椅子已插入五爪腳完成的樣子。左側與上方可見扶手結構已固定在座面兩側，符合「座面加左右扶手」以及「座面中央有連接座/昇降機構」的特徵；但目前畫面只看到座面底部，五爪腳、腳輪與椅背不在同一個完成狀態中，因此判斷目前已完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 7184,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": false,
+        "run_level_accuracy": 0.3333,
+        "avg_latency_ms": 7293
+      }
+    },
+    {
+      "image": "step02_09.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到座面底部已經安裝了左右扶手，且同時可見昇降機構/連接座（中央黑色機構、旋鈕與底座金屬件）已固定在座面下方；但沒有看到已立起並鎖上的網布椅背，因此不是 step03 以上。由於已同時具備扶手與昇降零件，且尚未接上椅背，符合「已完成到 step02」的狀態。",
+            "suggestion": "",
+            "latency_ms": 7384,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "從照片看，座面底部已經裝上左右扶手，且座面中央也已安裝昇降/機構零件（可看到中間的調整旋鈕、底座機構與固定螺絲）。同時沒有看到椅背已鎖在座面後方，因此不是 step03 或 step05。也沒有看到五爪腳、腳輪組、氣壓棒已與座面組合，因此不是 step04。綜合判斷，照片目前完成到座面加扶手與昇降零件的階段。",
+            "suggestion": "",
+            "latency_ms": 6246,
+            "correct": true
+          },
+          {
+            "current_step": 2,
+            "reason": "從實況照片看得到的是座面底部已經安裝了扶手，左右扶手都固定在座面兩側；同時也能看到中間已裝上昇降/機構零件（座面底部中央的黑色機構）。照片中沒有看到椅背已鎖在座面後方，因此不是 step03 以上。也沒有看到五爪腳、腳輪、氣壓棒與保護套已組裝完成，因此不是 step04 或 step05。依照判斷順序，已完成到「座面裝上左右扶手」且也裝了昇降零件，但尚未裝椅背與腳座組合，所以目前完成到 step02。",
+            "suggestion": "",
+            "latency_ms": 5710,
+            "correct": true
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6447
+      }
+    },
+    {
+      "image": "step02_10.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "實況照片中可清楚看到：只有座面、左右扶手與椅背已經組裝在一起，形成完整的上半部椅子結構；但下方沒有看到五爪腳、腳輪，也沒有看到氣壓棒或保護套，表示還沒做到步驟4與5。依照判斷順序，這種狀態符合「座面後方有一整片椅背立起來」的情況，因此已完成到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 6663,
+            "correct": false
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到座面、左右扶手與後方椅背已經全部裝上，屬於完整的上半部椅身；但畫面中完全看不到五爪腳、腳輪、氣壓棒，也沒有看到座面與腳架已插合完成，因此不是 Step 5。由於已經有椅背且扶手也在，明顯超過 Step 1、Step 2；又因為椅背已裝好，對應到說明書的第 3 步完成狀態。",
+            "suggestion": "",
+            "latency_ms": 7238,
+            "correct": false
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可以清楚看到座面已經裝上左右扶手，符合 Step 1。座面後方還能看到背部支架/連接結構，顯示椅背也已經安裝完成，符合 Step 3 的特徵。畫面中沒有看到五爪腳、腳輪、氣壓棒，也沒有看到座面已插入五爪腳，因此不是 Step 4 或 Step 5。由於已完成項目包含 Step 1 與 Step 3，但依判斷順序應以目前已完成到的最高步驟為準，因此判定為 Step 3。",
+            "suggestion": "",
+            "latency_ms": 9092,
+            "correct": false
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": false,
+        "run_level_accuracy": 0.0,
+        "avg_latency_ms": 7664
+      }
+    },
+    {
+      "image": "step02_11.jpeg",
+      "expected": 2,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可以清楚看到已裝上座面、左右扶手，以及後方椅背；扶手與椅背都已固定在座面上，這已經超過 Step 1（只有扶手）與 Step 2（只有昇降零件）。不過照片下方看不到五爪腳，無法確認是否已完成 Step 4 或 Step 5；但依目前畫面可見的組合，至少已完成椅背安裝，因此判定到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 10144,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可以清楚看到座面、左右扶手，以及座面下方已安裝的昇降／連接機構，但沒有看到椅背已固定在座面後方的結構；同時也看不到五爪腳、腳輪、氣壓棒等底座組件已與座面插接完成。因此目前最符合的是已完成到 Step 2：座面裝上昇降零件。",
+            "suggestion": "",
+            "latency_ms": 9107,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "實況照片中可以清楚看到：座面已經裝上左右扶手，且座面後方也已經有椅背立起來，因此不只是 Step 1，也已經完成到椅背安裝這一步。照片裡看不到五爪腳、腳輪、氣壓棒或座面下方的升降零件，表示還沒有完成 Step 4 或 Step 5。依照判斷順序，這個狀態最符合已完成 Step 3。",
+            "suggestion": "",
+            "latency_ms": 9952,
+            "correct": false
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": false,
+        "run_level_accuracy": 0.3333,
+        "avg_latency_ms": 9734
+      }
+    },
+    {
+      "image": "step03_01.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中可清楚看到：座面底部已裝上左右扶手，且座面中央也已經固定了昇降機構／連接座（可見中央黑色機構與圓形孔位）。但是畫面中沒有看到椅背已裝上座面後方，也沒有看到五爪腳、腳輪、氣壓棒或將座面插入腳架的完成狀態。因此目前已完成到座面加扶手與昇降零件都已安裝，尚未到椅背或腳架組裝完成。",
+            "suggestion": "",
+            "latency_ms": 5835,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "從照片可見目前只有座面翻面，已經裝上左右扶手，且座面底部中央也已裝有昇降機構/連接座，沒有看到網布椅背立起來，因此至少完成到 Step 2，而且 Step 1 也已完成。畫面中看不到座面後方有完整椅背，也看不到座面已插入五爪腳；另外背景雖然有零散零件，但五爪腳本體未清楚出現在組裝中的主體上，所以無法判定是 Step 3、4 或 5。依最符合的已完成狀態判斷，應為 Step 2。",
+            "suggestion": "",
+            "latency_ms": 6573,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "從實況照片可見目前只有座面翻面，已經裝上左右扶手，且座面底部中央也已經裝有升降/連接機構（可見中央旋鈕與底座結構），但沒有看到椅背立在座面後方，因此不符合 Step 03。也沒有看到五爪腳、腳輪、氣壓棒與保護套，表示還沒到 Step 04 或 Step 05。由於照片中同時能確認扶手與中央升降機構，且座面上方/後方沒有椅背，可判定已完成到 Step 02。",
+            "suggestion": "",
+            "latency_ms": 6960,
+            "correct": false
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": false,
+        "run_level_accuracy": 0.0,
+        "avg_latency_ms": 6456
+      }
+    },
+    {
+      "image": "step03_02.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 2,
+            "reason": "照片中看到的是座面翻面後的底部，左右扶手已經安裝在座面兩側，底部中央也可見昇降/連接機構與調節把手，符合已完成扶手與昇降零件安裝的狀態；但畫面中沒有看到椅背已裝上，也沒有看到五爪腳、腳輪或整組成椅腳架，因此可以排除 step03、step04、step05。依判斷順序，這目前完成到 Step 2。",
+            "suggestion": "",
+            "latency_ms": 5812,
+            "correct": false
+          },
+          {
+            "current_step": 1,
+            "reason": "照片中可以清楚看到座面底部已經裝上左右扶手，且沒有看到椅背立在座面後方，因此不是 Step 3。座面中央也沒有看到昇降零件/機構已完整裝上的明顯外觀（如座面中央下方的升降總成），所以不像 Step 2。畫面裡也沒有看到五爪腳、腳輪、氣壓棒等底座組件，因此不是 Step 4 或 Step 5。綜合判斷，目前完成到只有座面加左右扶手的階段。",
+            "suggestion": "",
+            "latency_ms": 5688,
+            "correct": false
+          },
+          {
+            "current_step": 2,
+            "reason": "照片中可以清楚看到座面已經翻面，左右扶手已經固定在座面兩側，符合 Step 1 的特徵。座面中央也已經裝上升降/機構零件，但看不到完整的網布椅背立起來，因此不符合 Step 3。畫面中也沒有五爪腳、腳輪或氣壓棒組裝在座面下方，因此不是 Step 4 或 Step 5。綜合判斷，目前已完成到座面安裝昇降零件這一步，且比單純扶手安裝更進一步。",
+            "suggestion": "",
+            "latency_ms": 5348,
+            "correct": false
+          }
+        ],
+        "majority_step": 2,
+        "is_tied": false,
+        "majority_correct": false,
+        "run_level_accuracy": 0.0,
+        "avg_latency_ms": 5616
+      }
+    },
+    {
+      "image": "step03_03.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到已組合好的椅背、座面與左右扶手，對照說明書這已經超過只有扶手的 Step 1，也不是只有昇降零件的 Step 2。畫面裡沒有看到五爪腳、腳輪、氣壓棒或保護套，也沒有看到座面插到五爪腳上，因此不是 Step 4 或 Step 5。依照判斷順序，這是座面後方已有整片椅背立起來的完成狀態，符合 Step 3。",
+            "suggestion": "",
+            "latency_ms": 6218,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到座面、椅背以及左右扶手都已組在一起，扶手與座面、椅背與座面之間的結構都已完成；但目前看不到五爪腳、腳輪、氣壓棒與保護套，也沒有看到座面已插入五爪腳。依判斷順序，這已經超過 Step 3，且尚未到 Step 4/5，因此目前完成到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 6769,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到座面、椅背以及左右扶手都已經組合在一起，符合「座面後方有一整片網布椅背立起來」的特徵，因此至少完成到 Step 3。另一方面，畫面中沒有看到座面已插上五爪腳的完整底座，也沒有明顯看到五爪腳、腳輪、氣壓棒與保護套完整裝到一起的狀態，所以不是 Step 4 或 Step 5。",
+            "suggestion": "",
+            "latency_ms": 9015,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7334
+      }
+    },
+    {
+      "image": "step03_04.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可以清楚看到已經有座面、網布椅背，以及左右扶手都裝在座面上，因此至少完成到扶手與椅背安裝。畫面中沒有看到五爪腳、腳輪、氣壓棒或保護套，也沒有看到座面已插入五爪腳，所以不是 step04 或 step05。整體特徵最符合「座面後方有一整片網布椅背立起來」的狀態。",
+            "suggestion": "",
+            "latency_ms": 6453,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到：已經有座面、左右扶手，以及後方立起的椅背，符合說明書的 Step 3 組合狀態。畫面中沒有看到五爪腳、腳輪、氣壓棒或保護套，因此還沒到 Step 4/5。扶手與椅背都已固定在座面上，顯示已完成到椅背安裝這一步。",
+            "suggestion": "",
+            "latency_ms": 12151,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可見已裝上座面、椅背以及左右扶手，符合說明書中的完整上半部組合。畫面中看不到五爪腳、腳輪、氣壓棒或保護套，也沒有看到座面底部已插入五爪腳的完成狀態，因此不是 step04 或 step05。由於已明確看到椅背與扶手都已固定在座面上，判斷目前完成到 step03。",
+            "suggestion": "",
+            "latency_ms": 8536,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 9047
+      }
+    },
+    {
+      "image": "step03_05.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到已經組好的椅背、座面，以及左右扶手結構都已固定在同一個座椅本體上；這代表至少已完成把扶手與椅背裝到座面上的階段。畫面中沒有看到五爪腳、腳輪、氣壓棒或保護套已與座面結合，因此不是 step05；也沒有看到僅有座面和扶手、沒有椅背的狀態，因此不是 step01。由於座面中央下方的升降零件/連接座看起來也已存在，且整體已是椅背+座面+扶手的完整上半部組合，最符合已完成到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 8200,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到座面背面已經裝上了扶手、昇降/機構座與椅背：座面後方有完整立起的網布椅背，且座面底部可見連接機構與扶手結構，這已超過 Step 1、Step 2，符合 Step 3 的完成狀態。另一方面，照片中沒有看到五爪腳已完整裝上腳輪、氣壓棒與保護套，也沒有看到座面已插入五爪腳完成站立，因此還不到 Step 4 或 Step 5。",
+            "suggestion": "",
+            "latency_ms": 7379,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可清楚看到座面已經裝上左右扶手，且座面底部也已安裝昇降機構/連接座與椅背，沒有看到需要再單獨安裝的明顯空位。椅身目前仍是倒放狀態，底下可見五爪腳已裝上腳輪，中心也已插入氣壓棒與保護套，顯示腳座部分已完成。綜合來看，座面組合已和五爪腳結合，屬於完整椅子已完成組裝。",
+            "suggestion": "",
+            "latency_ms": 8910,
+            "correct": false
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 0.6667,
+        "avg_latency_ms": 8163
+      }
+    },
+    {
+      "image": "step03_06.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "從照片可見椅子已經有完整的座面、網布椅背，以及左右扶手都已安裝在座面上；這符合步驟 3 完成後的狀態。畫面中未看到座面底部中央的昇降機構細節，但依目前可辨識到的組件，已明確超過 Step 1、Step 2。另一方面，五爪腳雖然在背景右上方有出現，但它看起來是單獨放置，並沒有和椅座組合在一起，因此還不到 Step 5。綜合判斷，目前已完成到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 7085,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可見座面、網布椅背與左右扶手都已組裝完成；而且座面下方還能看到已安裝的升降機構/底盤連接件。畫面中同時也看不到五爪腳、腳輪、氣壓棒等底座零件已與座面組合，因此不是 step05；又因為椅背、扶手、升降零件都已存在，完成度明顯高於 step01~02。依判斷順序，符合「座面後方有一整片網布椅背立起來」的情況，應判定為 step03。",
+            "suggestion": "",
+            "latency_ms": 7500,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "從照片可見椅子已經組到完整坐椅本體：有座面、網布椅背、左右扶手都已裝上，且座面下方已可看到升降/底座連接機構的一部分；不過畫面中沒有看到五爪腳、腳輪、氣壓棒完整裝好，也沒有看到座面整體插到五爪腳上，因此不是完成椅子也不是 step05。由於已經有椅背與扶手，且不是只有座面+扶手的狀態，所以至少完成到裝椅背的階段。",
+            "suggestion": "",
+            "latency_ms": 11335,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8640
+      }
+    },
+    {
+      "image": "step03_07.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可以清楚看到椅背、座面與左右扶手都已經安裝完成；這對應到說明書的 Step 3。畫面中沒有看到五爪腳、腳輪、氣壓棒或保護套，也沒有看到座面已插入五爪腳，因此不是 Step 4 或 Step 5。座面下方雖有扶手與椅背結構，但從這張角度看不到完整底部五爪腳組件，判斷目前已完成到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 10926,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "從照片可見椅子已經組成完整上半部：有座面、椅背、左右扶手都已安裝完成，這符合說明書中的 Step 3。照片中沒有看到五爪腳、腳輪、氣壓棒或保護套，因此還沒到 Step 4/5。座面底部的連接處與五爪腳是否已裝、以及氣壓棒是否已插入都看不到，所以可判定已完成到椅背安裝這一步。",
+            "suggestion": "",
+            "latency_ms": 17067,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "從照片可見椅子已經有完整的椅背、座面與左右扶手，符合 Step 3 的組合特徵。畫面中看不到五爪腳、腳輪或氣壓棒，也沒有看到座面底部是否已裝上升降零件的清楚細節，因此可排除 Step 4、Step 5；同時椅背已明顯裝上，超過 Step 1、Step 2。",
+            "suggestion": "",
+            "latency_ms": 7034,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 11676
+      }
+    },
+    {
+      "image": "step03_08.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到：座面已裝上左右扶手，且已經有網布椅背立起來並固定在座面後方，因此至少完成到椅背安裝。畫面中沒有看到五爪腳、腳輪或氣壓棒，也沒有看到座面下方的昇降零件與連接座細節，但因為椅背已明確存在，所以可排除 step01、step02；同時又看不到腳架組，無法判定是否已達 step04 或 step05。依可辨識特徵，現階段最符合的是已完成到 step03。",
+            "suggestion": "",
+            "latency_ms": 8282,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到座面、左右扶手，以及後方已裝上完整椅背，符合步驟3的完成狀態。若是步驟4或5，應該還要看到五爪腳、腳輪、氣壓棒，或整張椅子已插上底座；但目前畫面中沒有看到五爪腳與腳輪，也沒有看到座面已插入底座，因此可以判定目前已完成到步驟3。",
+            "suggestion": "",
+            "latency_ms": 9319,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "從實況照片可清楚看到：座面已經裝上左右扶手，且椅背也已固定在座面後方，符合已完成到 Step 3 的特徵。照片中沒有看到五爪腳、腳輪、氣壓棒或保護套，也沒有看到座面已插入五爪腳，因此尚未到 Step 4 或 Step 5。",
+            "suggestion": "",
+            "latency_ms": 9382,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8994
+      }
+    },
+    {
+      "image": "step03_09.jpeg",
+      "expected": 3,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 3,
+            "reason": "照片中已能看到椅背、座面與左右扶手都已安裝完成，因此至少超過 Step 1。從畫面下方看不到五爪腳、腳輪、氣壓棒或保護套，也沒有看到座面已插入五爪腳的完整底座結構，所以不是 Step 4 或 Step 5。椅背明顯已固定在座面後方，符合「座面後方有一整片網布椅背立起來」的特徵，因此判斷目前已完成到 Step 3。",
+            "suggestion": "",
+            "latency_ms": 7419,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中已能清楚看到座面、椅背與左右扶手都已組裝完成，對應說明書的 Step 3。畫面中沒有看到五爪腳、腳輪、氣壓棒或保護套，因此還沒到 Step 4；也沒有看到座面插入五爪腳的完成狀態，所以不是 Step 5。",
+            "suggestion": "",
+            "latency_ms": 6876,
+            "correct": true
+          },
+          {
+            "current_step": 3,
+            "reason": "照片中可清楚看到椅背、座面與左右扶手都已經裝上，符合已完成扶手與椅背安裝的狀態；但畫面下方看不到五爪腳、腳輪、氣壓棒，也沒有看到座面是否已插入五爪腳，因此無法達到 step05。由於已經有完整椅背+座面+扶手，且外觀不像只有座面或僅有升降零件，所以判斷目前至少完成到 step03。",
+            "suggestion": "",
+            "latency_ms": 8150,
+            "correct": true
+          }
+        ],
+        "majority_step": 3,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7482
+      }
+    },
+    {
+      "image": "step04_01.jpeg",
+      "expected": 4,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已裝上5顆腳輪，中央也已插入氣壓棒與保護套，這符合說明書的Step 4。畫面中沒有看到座面、扶手或椅背已經裝到五爪腳上，因此還沒有完成Step 5；也不像Step 1~3 那種座面組件的狀態。",
+            "suggestion": "",
+            "latency_ms": 6969,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已裝上5個腳輪，中央也已插入氣壓棒與保護套，這符合說明書的 Step 4。畫面中沒有看到座面、扶手、椅背與五爪腳組合在一起，因此還不到 Step 5；也看不到座面上的扶手或背靠組件，所以不是 Step 1~3。",
+            "suggestion": "",
+            "latency_ms": 8406,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已經裝上 5 個腳輪，中央也已插入氣壓棒與保護套，符合說明書步驟 4 的完成狀態。畫面中沒有看到座面被安裝到五爪腳上，也沒有看到完整座面、扶手、椅背組合，因此尚未到 step 5。",
+            "suggestion": "",
+            "latency_ms": 6471,
+            "correct": true
+          }
+        ],
+        "majority_step": 4,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7282
+      }
+    },
+    {
+      "image": "step04_02.jpeg",
+      "expected": 4,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已裝上 5 顆腳輪，中央也已插入氣壓棒並套上保護套，因此步驟 4 已完成。畫面中未看到座面已插入五爪腳，也沒有看到完整的椅子座面、椅背或扶手組合，所以尚未到 step05。",
+            "suggestion": "",
+            "latency_ms": 12090,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "照片中可以清楚看到五爪腳已裝上全部腳輪，中央也已插入氣壓棒與保護套，因此底座部分完成到步驟4。畫面左側還可看到座面與扶手的組合件，但沒有看到它已插到五爪腳中央，也沒有看到完整椅背與座面整體安裝完成，所以尚未到步驟5。依判斷順序，這是「有五爪腳加腳輪，但座面還沒組合上來」的狀態。",
+            "suggestion": "",
+            "latency_ms": 11864,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已裝上全部腳輪，中央也已裝有氣壓棒與保護套，這符合說明書的 Step 4。畫面中沒有看到座面被插到五爪腳上，也沒有看到完整椅子本體（座面、椅背、扶手）組合完成，因此尚未到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 8012,
+            "correct": true
+          }
+        ],
+        "majority_step": 4,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 10655
+      }
+    },
+    {
+      "image": "step04_03.jpeg",
+      "expected": 4,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已裝上5個腳輪，中央也已插入氣壓棒，並套上保護套；但畫面中沒有看到座面、椅背或扶手組件與五爪腳結合，因此可判斷已完成到五爪腳的組裝階段，尚未進行把座面組合插入五爪腳的最後一步。",
+            "suggestion": "",
+            "latency_ms": 8845,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "實況照片中可清楚看到五爪腳已經裝上 5 顆腳輪，中央也已插入氣壓棒與保護套，因此至少完成了腳座相關組裝。畫面中沒有看到座面、扶手、椅背等上半部零件，座面也尚未插入五爪腳，所以不是完整椅子，也不是座面組裝步驟。依照判斷順序，這符合 Step 4。",
+            "suggestion": "",
+            "latency_ms": 7661,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "實況照片中可以清楚看到五爪腳已經裝上 5 個腳輪，中央也已插入氣壓棒，外面還有保護套，因此符合說明書的 Step 4。畫面中沒有看到座面、扶手或椅背組合在五爪腳上，所以還沒有完成 Step 5。",
+            "suggestion": "",
+            "latency_ms": 9128,
+            "correct": true
+          }
+        ],
+        "majority_step": 4,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8545
+      }
+    },
+    {
+      "image": "step04_04.jpeg",
+      "expected": 4,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已經裝上腳輪，中央也已插入氣壓棒，並且有保護套放在旁邊，符合步驟4的完成狀態。畫面中沒有看到座面已經插上五爪腳，也沒有看到座面、扶手、椅背等上半部組件，因此還不到步驟5；同時也看不到座面已裝扶手、昇降零件或椅背的狀態。",
+            "suggestion": "",
+            "latency_ms": 6835,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "照片中可見五爪腳已經裝上腳輪，且中央已插入氣壓棒，外面也套上保護套/氣壓棒外罩，因此下半部已完成到步驟4。畫面中沒有看到座面、扶手、椅背與五爪腳組合在一起，也沒有看到座面已插入五爪腳的完整成品，所以尚未到步驟5。",
+            "suggestion": "",
+            "latency_ms": 7277,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "從實況照片可清楚看到五爪腳已經裝上 5 顆腳輪，中央也已插入氣壓棒，外側還有氣壓棒保護套放在旁邊，符合說明書 Step 4 的完成狀態。照片中沒有看到座面或椅背已組合並插到五爪腳上，因此還不到 Step 5；也看不到座面扶手、升降機構或椅背與座面的組裝完成狀態，所以可以判斷目前完成到五爪腳組裝階段。",
+            "suggestion": "",
+            "latency_ms": 6336,
+            "correct": true
+          }
+        ],
+        "majority_step": 4,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6816
+      }
+    },
+    {
+      "image": "step04_05.jpeg",
+      "expected": 4,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 4,
+            "reason": "照片中可以清楚看到五爪腳已經裝上 5 個腳輪，中央也已插入氣壓棒，並且外面有黑色保護套；這正符合說明書的 Step 4。畫面中沒有看到座面、扶手或椅背已經裝到五爪腳上，因此還沒有達到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 7405,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "實況照片中可清楚看到五爪腳已經裝上5顆腳輪，中央也已插入氣壓棒，並有保護套/外罩套在氣壓棒下方。畫面中沒有看到座面、扶手、椅背已組合到五爪腳上，因此目前完成的是五爪腳底座的組裝階段，符合 Step 4。",
+            "suggestion": "",
+            "latency_ms": 7921,
+            "correct": true
+          },
+          {
+            "current_step": 4,
+            "reason": "照片中可清楚看到五爪腳已經裝上5個腳輪，中央也已插入氣壓棒與保護套，這符合說明書的 Step 4。畫面中沒有看到座面、扶手或椅背已經組合到五爪腳上，因此還不到 Step 5，也沒有座面組件可判斷為 Step 1~3。",
+            "suggestion": "",
+            "latency_ms": 8070,
+            "correct": true
+          }
+        ],
+        "majority_step": 4,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7799
+      }
+    },
+    {
+      "image": "step05_01.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "從實況照片可清楚看到椅子已完整組裝：有椅背、座面、左右扶手，以及五爪腳和腳輪。椅子也已經不是只有座面或只有五爪腳的階段，因此不是 step01~04，而是已完成最後把座面組合插入五爪腳的完整成品。",
+            "suggestion": "",
+            "latency_ms": 5318,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅子已經是完整組裝狀態：有椅背、座面、左右扶手，且下方五爪腳已安裝腳輪，椅子也已插上氣壓棒並裝好保護套的外觀。這表示不只是座面部分完成，而是整張椅子已經組到最後，符合判斷順序中的「完整椅子（椅背+座面+扶手+五爪腳+腳輪全部組合）」；因此已完成到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 5827,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可清楚看到椅子已經是完整成品：有椅背、座面、左右扶手，以及下方五爪腳與腳輪，並且座面已經插在五爪腳上。這表示不只是做到扶手/椅背/升降零件其中之一，而是已完成到最後的總裝步驟。",
+            "suggestion": "",
+            "latency_ms": 9442,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6862
+      }
+    },
+    {
+      "image": "step05_02.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "從實況照片可看到椅子已經是完整可使用的外觀：有椅背、座面、左右扶手，且底部已裝上五爪腳、腳輪，椅身也已插在五爪腳上形成完整椅子。這符合判斷順序中的第 1 種情況（完整椅子全部組合完成），因此已經完成到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 9121,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅子已經完成完整的椅背、座面、左右扶手，以及五爪腳與腳輪的組裝。五爪腳已裝上 5 個腳輪，座面下方也可見已連接到腳座上，整體看起來已不是單獨的座面或半成品，而是可直接使用的完整椅子。依照判斷順序，這符合「完整椅子（椅背+座面+扶手+五爪腳+腳輪全部組合）」的狀態。",
+            "suggestion": "",
+            "latency_ms": 8213,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "從照片可見椅子已經完整立起來，包含座面、椅背、左右扶手，以及下方五爪腳與腳輪都已組裝完成。座面下方也能看到已接上支撐結構，整體外觀符合說明書中的最終完成狀態，而不是僅止於單獨的座面、扶手或五爪腳階段。因此可判斷組裝已完成到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 9006,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 8780
+      }
+    },
+    {
+      "image": "step05_03.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "照片中可清楚看到椅背、座面、左右扶手，以及下方五爪腳和腳輪都已經組裝完成。這表示不只是座面與扶手（Step 1）、也不只是座面與昇降零件（Step 2），而是已經完成了椅背安裝（Step 3）且也把五爪腳、腳輪與底部零件裝好（Step 4）。目前整張椅子已經立起來並完成座面與腳架的結合，因此判定為完整組裝完成。",
+            "suggestion": "",
+            "latency_ms": 7014,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可清楚看到椅背、座面、左右扶手以及五爪腳和腳輪都已經組合完成。依照說明書的判斷順序，這已經不是只有扶手的 Step 1，也不是只有座面底部機構的 Step 2；同時也不是只有椅背與座面尚未接到底座的 Step 3，因為底部五爪腳與腳輪已裝好，且座面已經安裝到腳架上。",
+            "suggestion": "",
+            "latency_ms": 8725,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅背、座面、左右扶手都已裝好，且下方已經有五爪腳與腳輪；從外觀判斷這不是只有座面或只有座面加扶手的狀態，也不是還沒裝座面的五爪腳單體。整張椅子已經組成並立在地上，符合「座面組合插入五爪腳」後的完成樣貌。",
+            "suggestion": "",
+            "latency_ms": 7623,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 7787
+      }
+    },
+    {
+      "image": "step05_04.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "實況照片中可以看到椅背、座面、左右扶手都已安裝完成；同時下方也已經有五爪腳、腳輪，並且中心已裝上氣壓棒/底座連接件，因此不是只到扶手、昇降零件或單純椅背的中間步驟。照片顯示整張椅子已經組合在一起，座面也已插到五爪腳上，符合說明書的最終組裝狀態。",
+            "suggestion": "",
+            "latency_ms": 9121,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可清楚看到椅背、座面、左右扶手都已裝上，且下方五爪腳也已裝好腳輪，整張椅子已組合完成。雖然氣壓棒與保護套在此角度不一定完全可見，但從整體外觀判斷，已經不是單獨座面或腳座階段，而是完成組裝的完整椅子。",
+            "suggestion": "",
+            "latency_ms": 12422,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "從實況照片可見：椅背、座面、左右扶手都已組裝完成；下方五爪腳也已裝上腳輪，且中心有氣壓棒/底座零件，整張椅子已完整立起來。這符合判斷順序中「有完整椅子（椅背+座面+扶手+五爪腳+腳輪全部組合）」的情況，因此已完成到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 7768,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 9770
+      }
+    },
+    {
+      "image": "step05_05.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅子已經組成完整外觀：有椅背、座面、左右扶手，而且下方也已經裝上五爪腳與腳輪。這表示不只是座面單獨裝扶手或背靠，也不只是五爪腳零件未組合完成，而是整張椅子已完成插入腳座後的最終形態。",
+            "suggestion": "",
+            "latency_ms": 12814,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅背、座面、左右扶手都已裝上，符合已完成座面+扶手+椅背的狀態；同時下方五爪腳也已裝上腳輪，且椅子已經插在五爪腳上，表示不只是腳架完成，而是整張椅子已組合完成。因此判斷目前已超過 Step 4，完成到最終組裝步驟。",
+            "suggestion": "",
+            "latency_ms": 6873,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅背、座面、左右扶手都已裝上，且下方已可看到五爪腳與腳輪；因此不是只有扶手/升降零件/椅背的中途狀態，而是已經把座面組合插到五爪腳上完成整椅。",
+            "suggestion": "",
+            "latency_ms": 8615,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 9434
+      }
+    },
+    {
+      "image": "step05_06.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "照片中可見完整椅子已經組裝完成：有椅背、座面、左右扶手，且下方五爪腳已裝上腳輪，中央也已接上氣壓棒/升降結構。這符合說明書最後的完成狀態，而不是僅完成到前面的單一步驟。",
+            "suggestion": "",
+            "latency_ms": 6393,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可清楚看到椅子已經是完整成品狀態：有椅背、座面、左右扶手，而且下方也已裝上五爪腳與腳輪。這表示已經不只是座面/扶手/椅背的局部組裝，而是整張椅子已完成組合並立起來使用。依照判斷順序，符合「有完整椅子（椅背+座面+扶手+五爪腳+腳輪全部組合）」的情況。",
+            "suggestion": "",
+            "latency_ms": 7024,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "從照片看，椅子已經完成椅背、座面、左右扶手，以及五爪腳與腳輪的組裝：可見完整椅背立在座面後方，左右扶手都已裝上，底部也已經有五爪腳與5個腳輪。這表示不只是 Step 1/2/3，連 Step 4（五爪腳裝上腳輪、氣壓棒和保護套）也已完成。照片中雖然看不清楚氣壓棒上是否已套上保護套，但由於椅子已經整體立在五爪腳上，且結構看起來已可使用，最符合的是已完成到 Step 5。",
+            "suggestion": "",
+            "latency_ms": 7080,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6832
+      }
+    },
+    {
+      "image": "step05_07.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅背、座面、左右扶手都已經裝上，且底部也已經看到五爪腳與腳輪，表示不只是座面組件，整張椅子的主體已完成。雖然椅子看起來是已經立在五爪腳上，但從實況照片判斷已超過只裝扶手、昇降零件或椅背的階段；最符合的是已完成全部組裝後的完整椅子狀態。",
+            "suggestion": "",
+            "latency_ms": 6115,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可以看到椅子已經有完整的椅背、座面、左右扶手，以及下方五爪腳與腳輪。這表示不只是座面零件階段，而是整張椅子的主要結構都已組裝完成。依步驟判斷，這已超過 Step 3（座面裝椅背）與 Step 4（五爪腳裝腳輪/氣壓棒），目前應是把座面組合插入五爪腳後的完整成品狀態。",
+            "suggestion": "",
+            "latency_ms": 6052,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅子已經有完整椅背、座面、左右扶手，且下方五爪腳與腳輪也都已裝上，整體看起來是完整可使用的椅子。依判斷順序，這已超過 step01~step04，符合「有完整椅子（椅背+座面+扶手+五爪腳+腳輪全部組合）」的狀態。",
+            "suggestion": "",
+            "latency_ms": 7556,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6574
+      }
+    },
+    {
+      "image": "step05_08.jpeg",
+      "expected": 5,
+      "checklist_reordered": {
+        "runs": [
+          {
+            "current_step": 5,
+            "reason": "照片中可以看到椅背、座面、左右扶手都已裝上，且下方五爪腳已裝好腳輪並且已與座面組合完成；因此不只是 step01/02/03，也不是只有底座的 step04，而是完整椅子已組裝完成。",
+            "suggestion": "",
+            "latency_ms": 7140,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中的椅子已經可以看到完整的椅背、座面、左右扶手，以及五爪腳與腳輪都已裝好，外觀上已是完整可使用的椅子。依照判斷順序，這明顯超過 step03、step04，也不是只有座面扶手或只有升降零件的中間狀態，因此判定為已完成最終組裝。",
+            "suggestion": "",
+            "latency_ms": 6557,
+            "correct": true
+          },
+          {
+            "current_step": 5,
+            "reason": "照片中可見椅背、座面、左右扶手、五爪腳與腳輪都已經組合完成，椅子已是完整可使用的狀態。依說明書判斷，這已超過只完成扶手/昇降零件/椅背的中間步驟，而且五爪腳已裝上腳輪並且座面已插入五爪腳，因此符合完成整張椅子的最終狀態。",
+            "suggestion": "",
+            "latency_ms": 6511,
+            "correct": true
+          }
+        ],
+        "majority_step": 5,
+        "is_tied": false,
+        "majority_correct": true,
+        "run_level_accuracy": 1.0,
+        "avg_latency_ms": 6736
+      }
+    }
+  ]
+}
